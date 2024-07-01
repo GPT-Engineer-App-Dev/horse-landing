@@ -1,4 +1,5 @@
-import { CircleUser, Menu, Search, Horse } from "lucide-react";
+import { CircleUser, Menu, Search } from "lucide-react";
+import { Horse } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
