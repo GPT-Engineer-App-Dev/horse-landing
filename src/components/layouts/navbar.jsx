@@ -1,6 +1,7 @@
-import { CircleUser, Menu, Horse, Search } from "lucide-react"
+import { CircleUser, Menu, Search } from "lucide-react";
+import { Horse } from "lucide-react/icons";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,8 +9,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Checkbox } from "@/components/ui/checkbox"
+} from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,9 +18,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+} from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Outlet } from "react-router-dom";
 
 function SharedLayout() {
@@ -93,7 +94,7 @@ function SharedLayout() {
         <Outlet />
       </main>
     </div>
-  )
+  );
 }
 
 export default SharedLayout;
