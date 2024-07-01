@@ -1,4 +1,4 @@
-import { CircleUser, Menu, Package2, Search } from "lucide-react"
+import { CircleUser, Menu, Horse, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -31,8 +31,8 @@ function SharedLayout() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Package2 className="h-6 w-6" />
-            <span className="sr-only">Acme Inc</span>
+            <Horse className="h-6 w-6" />
+            <span className="sr-only">Horse Haven</span>
           </a>
           <a
             href="#"
@@ -58,8 +58,8 @@ function SharedLayout() {
                 href="#"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <Package2 className="h-6 w-6" />
-                <span className="sr-only">Acme Inc</span>
+                <Horse className="h-6 w-6" />
+                <span className="sr-only">Horse Haven</span>
               </a>
               <a
                 href="#"
@@ -89,7 +89,7 @@ function SharedLayout() {
           </DropdownMenu>
         </div>
       </header>
-      <main className="flex flex-1">
+      <main className="flex flex-1 flex-col items-center justify-center">
         <Outlet />
       </main>
     </div>
